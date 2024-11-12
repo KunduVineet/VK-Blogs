@@ -1,0 +1,44 @@
+/* Pagination.css */
+
+/* Main pagination container */
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for buttons and page info */
+  .pagination-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  /* Pagination buttons */
+  .pagination-buttons button {
+    padding: 8px 16px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-buttons button:hover {
+    background-color: #005bb5;
+  }
+  
+  .pagination-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style for page information */
+  .page-info {
+    font-size: 1rem;
+    color: #333;
+  }
+  

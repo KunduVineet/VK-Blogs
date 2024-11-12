@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+/* Main app container */
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+/* Header styling */
+.Header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0073e6;
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Style for main content sections */
+.Blogs {
+  padding: 20px 0;
+}
+
+/* Pagination styling (centered below blog content) */
+.pagination-container {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  .Header {
+    font-size: 1.5rem;
+  }
+}
+

@@ -1,0 +1,62 @@
+/* Blogs.css */
+
+.Blogs {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spinner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Or any other suitable height */
+  }
+  
+  .Blogs p.font-bold {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .Blogs p > span {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .Blogs p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .Blogs p + p + p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .Blogs div {
+    margin-top: 1rem;
+  }
+  
+  .Blogs div span {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    color: #0073e6;
+    background-color: #e0f2ff;
+    border-radius: 5px;
+  }
+  
+  .Blogs .no-post {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+  }
+  
