@@ -1,62 +1,121 @@
-/* Blogs.css */
+/* Main container for BlogPage */
+.blog-page {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-.Blogs {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .spinner-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Or any other suitable height */
-  }
-  
-  .Blogs p.font-bold {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-    color: #333;
-  }
-  
-  .Blogs p > span {
-    font-weight: bold;
-    color: #555;
-  }
-  
-  .Blogs p {
-    font-size: 0.9rem;
-    color: #777;
-  }
-  
-  .Blogs p + p + p {
-    margin-top: 1rem;
-    font-size: 1rem;
-    color: #444;
-    line-height: 1.6;
-  }
-  
-  .Blogs div {
-    margin-top: 1rem;
-  }
-  
-  .Blogs div span {
-    display: inline-block;
-    margin: 0 5px 5px 0;
-    padding: 4px 8px;
-    font-size: 0.8rem;
-    color: #0073e6;
-    background-color: #e0f2ff;
-    border-radius: 5px;
-  }
-  
-  .Blogs .no-post {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #555;
-  }
-  
+.blog-page h2 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.blog-page .back-button {
+  background-color: #0073e6;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.blog-page .back-button:hover {
+  background-color: #005bb5;
+}
+
+/* Loading spinner or message */
+.blog-page .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Blog Details */
+.blog-details {
+  margin-bottom: 2rem;
+}
+
+.blog-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-title span {
+  color: #0073e6;
+}
+
+.blog-meta {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.blog-meta .blog-author,
+.blog-meta .blog-category span {
+  font-weight: bold;
+  color: #555;
+}
+
+.blog-date {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.blog-content {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.blog-tags {
+  margin-top: 1rem;
+}
+
+.blog-tag span {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  color: #0073e6;
+  background-color: #e0f2ff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.blog-tag span:hover {
+  background-color: #cde9ff;
+}
+
+.no-post {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Related Blogs Styling */
+.related-blogs {
+  margin-top: 2rem;
+}
+
+.related-blogs h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.related-blogs .related-post {
+  margin-bottom: 1.5rem;
+}

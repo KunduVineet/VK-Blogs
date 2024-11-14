@@ -1,0 +1,54 @@
+/* Main container for the Home page */
+.home-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .home-page header {
+    margin-bottom: 30px;
+  }
+  
+  .home-page .header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Blogs Section */
+  .home-page .blogs {
+    margin-top: 20px;
+  }
+  
+  /* Pagination Section */
+  .home-page .pagination {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-page .pagination button {
+    background-color: #0073e6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-page .pagination button:hover {
+    background-color: #005bb5;
+  }
+  
+  .home-page .pagination .disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

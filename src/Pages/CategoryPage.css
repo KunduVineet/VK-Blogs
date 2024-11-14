@@ -1,0 +1,79 @@
+/* Main container for CategoryPage */
+.category-page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the Back button */
+  .category-page .back-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .category-page .back-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-page .back-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Styling for the Category header */
+  .category-page h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .category-page h2 .category-name {
+    color: #0073e6;
+  }
+  
+  /* Blogs Section */
+  .category-page .blogs {
+    margin-top: 2rem;
+  }
+  
+  /* Pagination Section */
+  .category-page .pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .category-page .pagination button {
+    background-color: #0073e6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-page .pagination button:hover {
+    background-color: #005bb5;
+  }
+  
+  .category-page .pagination .disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

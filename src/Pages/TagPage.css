@@ -1,0 +1,73 @@
+/* Main container for TagPage */
+.tag-page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the Back button */
+  .tag-page .back-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tag-page .back-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Styling for the Tag header */
+  .tag-page h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .tag-page h2 span {
+    color: #0073e6;
+  }
+  
+  /* Blogs section */
+  .tag-page .blogs {
+    margin-top: 2rem;
+  }
+  
+  /* Pagination Section */
+  .tag-page .pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tag-page .pagination button {
+    background-color: #0073e6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tag-page .pagination button:hover {
+    background-color: #005bb5;
+  }
+  
+  .tag-page .pagination .disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

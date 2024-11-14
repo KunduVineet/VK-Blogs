@@ -10,7 +10,7 @@ import { CategoryPage } from './Pages/CategoryPage';
 function App() {
   const {fetchBlogPosts} = useContext(AppContext);
   const [searchParams, setSearchParams] = useSearchParams();
-  const location = useLocation
+  const location = useLocation();
 
   useEffect(() =>{
     const page = searchParams.get("page") ?? 1;
