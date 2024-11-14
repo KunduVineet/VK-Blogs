@@ -1,6 +1,3 @@
-![Screenshot 2024-11-15 003748](https://github.com/user-attachments/assets/1df687b3-92d1-4c7b-9315-a00e51d189b9)Here's a detailed README file template that you can use for your project:
-
----
 
 # Blog Platform
 
@@ -93,6 +90,7 @@ npm start
 ![Screenshot 2024-11-15 003735](https://github.com/user-attachments/assets/f9c7b16e-26ab-4505-8902-f0e24f7163d3)
 
 ![Screenshot 2024-11-15 003748](https://github.com/user-attachments/assets/9f9fdceb-5029-4892-ad78-dfe1f224003f)
+![Screenshot 2024-11-15 003748](https://github.com/user-attachments/assets/1df687b3-92d1-4c7b-9315-a00e51d189b9)
 
 
 ### API Interaction
